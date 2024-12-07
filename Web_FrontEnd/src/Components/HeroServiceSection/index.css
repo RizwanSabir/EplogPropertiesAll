@@ -1,0 +1,72 @@
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)* -1);
+    margin-right: calc(var(--bs-gutter-x)* -.5);
+    margin-left: calc(var(--bs-gutter-x)* -.5);
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+
+.header-logo img {
+    width: 100%; /* Make the image fill the container */
+    height: 100px; /* Maintain aspect ratio */
+}
+
+.banner-title{
+    
+    line-height: 74px;
+    letter-spacing: -3px;
+
+}
+  
+  
+
+
+
+
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.animate-marquee {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+}
+
+
+
+.booking-box {
+    backdrop-filter: blur(10px);
+    width: 80%;
+    background-color: #ffffff5e;
+    border-radius: 30px;
+
+  
+   
+    
+}
+
+

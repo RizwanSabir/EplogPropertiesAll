@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'BasicSans-Regular'; /* Updated font-family name */
+    src: url('/Fonts/Basic_Sans_Regular.otf') format('opentype');
+}
+
+
+:root {
+    --primary-color: #7C3EFF;
+    --fonts-color: #2C3A46;
+    --black-color: #000;
+    --white-color: #fff;
+    --title-color: #374957;
+    --yellow-color: #FFCB2B;
+    --cyan-color: #82DFDF;
+    --blue-color: #3ED1FF;
+    --gray-color: #96A0A7;
+    --font-family: 'BasicSans-Regular'; /* Updated font-family name */
+    --blog-fonts: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: var(--font-family); /* Use the variable */
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--fonts-color);
+}
+
+.borderRed{
+    @apply border-2 border-red-500
+}
+
+.nav-link {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--title-color);
+}
+
+.btn {
+    transition: all .1s ease-in-out;
+    border-radius: 14px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.23px;
+    padding: 8px 30px;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: 1px solid var(--primary-color);
+}
+
+
+.outline-white {
+    background-color: transparent;
+    border: 1px solid var(--white-color);
+    color: var(--white-color);
+}
+
+.raleway-heading-bold {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .raleway-paragraph-light {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  .nunito-sans-title-bold {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+  }
+  
+  .nunito-sans-body-regular {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+  }
+  .nunito-sans-body-regular2 {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100,
+      "YTLC" 500;
+  }
+  
+  .inter-heading-bold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500; /* Bold weight */
+    font-style: normal;
+  }
+  
+  .inter-body-light {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500; /* Light weight */
+    font-style: normal;
+  }
+  

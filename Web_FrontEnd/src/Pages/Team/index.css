@@ -1,0 +1,192 @@
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)* -1);
+    margin-right: calc(var(--bs-gutter-x)* -.5);
+    margin-left: calc(var(--bs-gutter-x)* -.5);
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+
+.header-logo img {
+    width: 100%; /* Make the image fill the container */
+    height: 100px; /* Maintain aspect ratio */
+}
+
+.banner-title{
+    
+    line-height: 74px;
+    letter-spacing: -3px;
+
+}
+  
+  
+
+
+.book-section {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+    justify-content: end;
+    gap: 20px;
+}
+  
+@media screen and (max-width: 1366.25px) {
+    .book-section {
+        bottom: 40px;
+    }
+}
+@media screen and (max-width: 1024.25px) {
+    .book-section {
+        bottom: 0;
+    }
+}
+
+
+
+@keyframes marquee {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.animate-marquee {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+}
+
+.book-section {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 40px;
+    right: 30px;
+    justify-content: end;
+    gap: 20px;
+}
+
+.booking-box {
+    background-image: url(/Svg/blur-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    color: var(--white-color);
+    border-radius: 38px;
+    width: 219px;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16.41px;
+    height: 118px;
+}
+
+/* General styling for the pagination container */
+.react-paginate {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Center the pagination for better visibility */
+    list-style-type: none;
+    padding: 0 1rem;
+    gap: 8px;
+  }
+  
+  /* Style for each pagination item */
+  .react-paginate li {
+    display: inline-block;
+  }
+  
+  /* Style for the anchor tag inside each li */
+  .react-paginate li a {
+    border-radius: 7px;
+    padding: 0.1rem 1rem;
+    border: gray 1px solid;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+  }
+  
+  /* Style for previous, next, and break pagination items */
+  .react-paginate li.previous a,
+  .react-paginate li.next a,
+  .react-paginate li.break a {
+    border-color: transparent;
+  }
+  
+  /* Style for the active page */
+  .react-paginate li.active a {
+    background-color: #0366d6;
+    border-color: transparent;
+    color: white;
+    min-width: 32px;
+  }
+  
+  /* Style for disabled pagination items */
+  .react-paginate li.disabled a {
+    color: grey;
+  }
+  
+  .react-paginate li.disable,
+  .react-paginate li.disabled a {
+    cursor: default;
+  }
+  
+  /* Responsive adjustments for small screens */
+  @media (max-width: 768px) {
+    .react-paginate {
+      flex-wrap: wrap; /* Allow pagination items to wrap to the next line */
+      gap: 4px;
+      padding: 0 2rem; /* Adjust padding for smaller screens */
+    }
+  
+    .react-paginate li a {
+      padding: 0.1rem 0.5rem; /* Reduce padding for smaller buttons */
+      font-size: 0.9rem; /* Adjust font size for better fit */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .react-paginate {
+      padding: 0 1rem;
+    }
+  
+    .react-paginate li a {
+      padding: 0.1rem 0.3rem; /* Further reduce padding for very small screens */
+      font-size: 0.8rem;
+    }
+  }
+  
+  
+  .card {
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.card2{
+  box-shadow: -5px -6px 30px -18px rgba(0,0,0,0.08)
+}

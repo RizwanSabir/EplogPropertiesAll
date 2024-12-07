@@ -1,0 +1,8 @@
+.bgColorShadow {
+    background: rgba(255, 255, 255, 0); /* Transparent */
+    background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 54%, rgba(3, 3, 32, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 54%, rgba(3, 3, 32, 1) 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 54%, rgba(3, 3, 32, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00ffffff", endColorstr="#030320", GradientType=1);
+}
+

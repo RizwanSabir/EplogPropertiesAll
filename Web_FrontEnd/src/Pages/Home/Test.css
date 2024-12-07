@@ -1,0 +1,4 @@
+video {
+    width: 100%;
+    height: auto; /* Ensures the video maintains its aspect ratio */
+}

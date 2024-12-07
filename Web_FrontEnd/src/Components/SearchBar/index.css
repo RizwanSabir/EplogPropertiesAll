@@ -1,0 +1,56 @@
+/* Style for the scrollbar */
+.scrollbar {
+    overflow-y: auto; /* Allow vertical scrolling */
+}
+
+/* The scrollbar itself */
+.scrollbar::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    height: 8px; /* Height of the scrollbar */
+}
+
+/* The track (background) of the scrollbar */
+.scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the track */
+    border-radius: 10px; /* Round the track */
+}
+
+/* The draggable part of the scrollbar */
+.scrollbar::-webkit-scrollbar-thumb {
+    background: #82DFDF; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Round the thumb */
+}
+
+/* The thumb on hover */
+.scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #63E6BE; /* Color when hovering over the thumb */
+}
+
+
+
+.scrollbarX {
+    overflow-x: auto; /* Allow vertical scrolling */
+}
+
+/* The scrollbar itself */
+.scrollbarX::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    height: 8px; /* Height of the scrollbar */
+}
+
+/* The track (background) of the scrollbar */
+.scrollbarX::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the track */
+    border-radius: 10px; /* Round the track */
+}
+
+/* The draggable part of the scrollbar */
+.scrollbarX::-webkit-scrollbar-thumb {
+    background: #82DFDF; /* Color of the scrollbar thumb */
+    border-radius: 10px; /* Round the thumb */
+}
+
+/* The thumb on hover */
+.scrollbarX::-webkit-scrollbar-thumb:hover {
+    background: #63E6BE; /* Color when hovering over the thumb */
+}

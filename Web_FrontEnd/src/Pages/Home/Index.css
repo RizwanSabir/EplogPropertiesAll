@@ -1,0 +1,441 @@
+.section {
+    padding: 50px 0;
+    position: relative;
+}
+
+.EplogBackground {
+    background-image: url('/Media/buy-sell.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)* -1);
+    margin-right: calc(var(--bs-gutter-x)* -.5);
+    margin-left: calc(var(--bs-gutter-x)* -.5);
+}
+
+/* Investment-section */
+.investment-section {
+    background-image: url(/Media/dashed-line.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.learn-more-box {
+    background-color: var(--title-color);
+    color: var(--white-color);
+ 
+    
+   
+    box-shadow: -14px 38px 72px #00000040;
+}
+
+.fa-arrow-right:before {
+    content: "\f061";
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* PropertySnagging */
+.propert-snagging-section {
+    background-image: url(/Svg/property-snagging.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.section-title {
+    font-size: 52px;
+    line-height: 57.6px;
+    font-weight: 700;
+    color: var(--title-color);
+    letter-spacing: -3px;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)* -1);
+    margin-right: calc(var(--bs-gutter-x)* -.5);
+    margin-left: calc(var(--bs-gutter-x)* -.5);
+}
+
+.white-box {
+    background-color: var(--white-color);
+    box-shadow: -11px 14px 35px #00000014;
+    width: 100%;
+    height: 279px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.white-box .box-title {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 700;
+}
+
+.white-box .line {
+    border: .5px solid var(--title-color);
+    opacity: .3;
+    margin: 10px 0 18px;
+}
+
+.white-box p {
+    font-size: 16px;
+    line-height: 21.6px;
+}
+
+/* Hide horizontal scrollbar while maintaining scrolling */
+.overflow-x-auto {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+  
+  .overflow-x-auto::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, and Opera */
+  }
+  
+  
+  @media screen and (max-width: 767.25px) {
+    .propert-snagging-section {
+        background-position: top center;
+    }
+}
+  
+/* Land Development */
+
+
+
+
+/* Trending Properties */
+.section-title-small {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -0.4%;
+    line-height: 41.27px;
+}
+
+.title-flex .line {
+    width: 68%;
+    margin-right: auto;
+}
+
+.property-tranding-slider {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.property-box {
+    box-shadow: 5px 4px 44px #00000017;
+    width: 100%;
+}
+
+.tag-yellow {
+    background-color: var(--yellow-color);
+    color: var(--title-color);
+    font-size: 15px;
+    line-height: 16.65px;
+    padding: 6px 15px 5px;
+    border-radius: 33px;
+    width: 110px;
+    text-align: center;
+}
+
+/* Hides scrollbar but allows horizontal scroll */
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+    /* Chrome, Safari, and Opera */
+}
+
+
+.team-data {
+    display: table;
+    min-height: 550px;
+}
+
+.team {
+    position: relative;
+    height: 100%;
+}
+
+.team-data div {
+    display: table-cell;
+    width: 33.33%;
+}
+
+.section {
+    padding: 50px 0;
+    position: relative;
+}
+
+.team.team-1,
+.team.team-1::after {
+    background-color: var(--blue-color);
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+.team.team-2::after {
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.team.team-2 {
+    background-color: var(--primary-color);
+    cursor: pointer;
+    vertical-align: bottom;
+}
+
+
+
+.team::after {
+    content: "\f054";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-radius: 0 30px 30px 0;
+    right: -25px;
+    top: 50%;
+    z-index: 5;
+    color: var(--white-color);
+    font-family: FontAwesome;
+    text-align: end;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.team img {
+    vertical-align: text-top;
+    width: 100%;
+}
+
+.about-team {
+    background-color: var(--title-color);
+    padding: 33px 50px 30px;
+}
+
+.about-team h1 {
+    font-size: 35px;
+    line-height: 36.47px;
+    letter-spacing: -1.5px;
+}
+
+
+.d-none {
+    display: none !important;
+}
+
+.team-datas {
+    background-color: var(--title-color);
+    padding: 33px 50px 30px;
+}
+
+/*  */
+.testimonial-box {
+    padding: 30px;
+    border: 1px solid var(--primary-color);
+}
+
+.testimonial-box p {
+    font-size: 14px;
+    line-height: 20.51px;
+}
+
+.testimonial-box .testimonial-user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Calender Section */
+.calender-section {
+    background-color: #96A0A7;
+}
+
+.calender-section h1 {
+    font-size: 40px;
+    line-height: 41.12px;
+    color: var(--white-color);
+}
+
+/* Blog Section */
+.blog-box {
+    border-radius: 50px;
+    /* box-shadow: -14px 38px 72px #00000040; */
+    box-shadow: -4px 2px 27px #00000040;
+}
+
+.blog-detail {
+    padding: 15px;
+    background: var(--white-color);
+    border-radius: 0 0 58px 58px;
+}
+
+.blog-box h3 {
+    font-family: var(--blog-fonts);
+    font-size: 18px;
+    line-height: 20.91px;
+    font-weight: 700;
+    letter-spacing: -.8px;
+    color: var(--title-color);
+}
+
+.section-title-small {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -0.4%;
+    line-height: 41.27px;
+}
+
+.swiper-container-horizontal>.swiper-scrollbar {
+    width: 65% !important;
+    background-color: transparent;
+    background-image: url(/Media/dashed-line.svg);
+    /* background-image: url(/Media/lang-bg.svg); */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.swiper-scrollbar-drag {
+    background-color: var(--primary-color) !important;
+    width: 70px !important;
+}
+
+.swiper-scrollbar-drag {
+    height: 5px;
+    width: 100px;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+
+/* NewsLetterSection */
+.newsletter-section {
+    background-color: var(--cyan-color) !important;
+}
+
+.newsletter-section {
+    padding: 70px 0;
+    z-index: 2;
+}
+
+.fz-18 {
+    font-size: 18px;
+    line-height: 21.6px;
+    font-weight: 700;
+}
+
+/* News Letter */
+.input-group-text {
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #181819;
+}
+
+.input-group-text {
+    color: var(--fonts-color);
+    padding: 7px;
+    cursor: pointer;
+}
+
+.fa-send:before, .fa-paper-plane:before {
+    content: "\f1d8";
+}
+
+
+
+
+/* Footer */
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+footer {
+    background-color: var(--title-color);
+    color: var(--white-color);
+}
+
+.footer-about-text {
+    font-size: 12px;
+    line-height: 17.96px;
+    width: 260px;
+}
+.social-links i {
+    color: var(--white-color);
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.footer-links a {
+    color: var(--white-color);
+    font-size: 16px;
+    line-height: 19.23px;
+    text-decoration: none;
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+    color: whitesmoke;
+}
+
+.fa-facebook-f:before, .fa-facebook:before {
+    content: "\f09a";
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.fa-youtube:before {
+    content: "\f167";
+}
+
+
+/* Hide scrollbar */
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .hide-scrollbar {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
